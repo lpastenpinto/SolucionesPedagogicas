@@ -1,0 +1,383 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+
+font-family: 'gobCL';
+
+src: url(http://elquiweb.net/soluciones-pedagogicas/wp-content/themes/child_twentytwelve/fuentes/gobCL_Regular.otf) format('opentype');
+
+}
+.logo_login{
+	width: 49%;
+ margin: 0 auto;
+
+}
+.cuerpo{
+	background-image: url(http://elquiweb.net/soluciones-pedagogicas/wp-content/themes/child_twentytwelve/img/backround.jpg); 
+	background-size: 100% 100%;
+			
+}
+footer{
+	/* width: 100%;
+    height: 81px;
+    position: absolute;
+    bottom: 0;
+    left: 0;        /* Altura del footer */
+
+}
+.titulo_tabla_anual_1{
+	background-color:#B0C4DE	
+	border:1px solid #CCCCCC; 
+	padding:15px 15px 15px 15px; 
+	text-align:center;
+	
+}
+.subtitulo_tabla_anual_1{	
+	border:1px solid #CCCCCC; 
+	padding:15px 15px 15px 15px; 
+	vertical-align:middle;	
+}
+.subtitulo_2_tabla_anual_1{
+	background-color:#B0C4DE;
+	border:1px solid #CCCCCC; 
+	padding:15px 15px 15px 15px;	
+}
+.celda_tabla_anual_1{
+	border:1px solid #CCCCCC; 
+	padding:15px 15px 15px 15px;		
+}
+.tabla_plan_anual_3{
+	border:1px solid #000000; 
+	font-size: 13px;
+	border-color:#000000;
+	border:5;		
+}
+.td_tabla_plan_anual_3{
+	border:1px solid #000000;	
+}
+.titulo_tabla_plan_anual_3{
+	background-color:#B0C4DE;
+	border:1px solid #000000;	
+}
+.tabla_planificacion_clase_3{
+	border:1px solid #CCCCCC; 
+	padding:15px 15px 15px 15px; 
+	text-align:center;
+}
+.titulo_tabla_planificacion_clase_3{
+	background-color:#B0C4DE;
+	border:1px solid #CCCCCC; 
+	padding:15px 15px 15px 15px; 
+	text-align:center;
+}
+.centrar_login {
+	overflow: hidden;
+	position: absolute;
+	height: 250px;
+	width: 600px;
+	left: 40%;
+	top: 55%;
+	margin-top: -100px;
+	margin-left: -150px;
+	background-image: url(http://elquiweb.net/soluciones-pedagogicas/wp-content/themes/child_twentytwelve/img/contenedor-login.png);
+	background-size: 600px 250px;
+}
+.contenedor_form_login{
+	background-image: url(http://elquiweb.net/soluciones-pedagogicas/wp-content/themes/child_twentytwelve/img/contenedor-login.png);
+}
+.contenedor_wp_login{
+	margin-left: 20%;
+margin-top: 10%;
+margin-right: 3%;
+padding-top: 3%;
+padding-bottom: 3%;			 			 			 
+		
+
+}
+.foot {
+position: fixed;bottom: 0px;
+
+
+}
+.div_logo{
+	width:40%;
+	float:left; 
+	  
+	margin-bottom: 3%;
+	}
+.div_logo img{
+	width:100%;
+}
+.contenedor{
+	background-image: url(http://elquiweb.net/soluciones-pedagogicas/wp-content/themes/child_twentytwelve/img/contenedor-medio.png);
+	background-size: 100% 100%;
+	
+}
+.div_botones_planificacion{
+	margin-top:25%;	
+}
+.contenedor_letras_menu_plan{
+	font-size:25px;
+	
+	padding-left: 5%;
+	margin-top:5%;
+
+}
+.contenedor_margenes{
+	padding-left: 2%;
+	margin-top:2%;
+}
+#contenedor_form_plan_anual{
+	padding-left: 2%;
+	margin-top:4%;
+}
+.boton_plan_anual{
+	width:80%;
+	height:15%;
+	font-size:2.5em;
+	padding: 10px 16px;	
+	line-height: 1.33;
+
+	border-radius: 6px;
+	color: #fff;
+	/*background-color: #428bca;*/
+	border-color:  #fff;
+
+	border-style: solid;
+	border-width: 2px;	
+	
+	background-image: linear-gradient(0deg,#00678a, #00a19a);
+	
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+
+	font-weight: 400;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+
+	-ms-user-select: none;
+
+	/*background-image: none;*/
+
+
+}
+@media screen and (max-width: 700px){
+.boton_plan_anual{
+
+	width:80%;
+	height:15%;
+	font-size:18px;				
+	border-radius: 6px;
+	border-color:  #fff;
+
+	border-style: solid;
+	border-width: 2px;
+	background-image: linear-gradient(0deg,#00678a, #00a19a);
+	border-radius: 6px;
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+	
+	
+
+}
+}
+.letras_form_plan_anual{
+	padding-top: 7px;
+	margin-bottom: 0;
+	color:#FFF;
+}
+.letras_blanca_normal{
+	padding-top: 7px;
+	margin-bottom: 0;
+	color:#FFF;
+	font-weight:normal;
+}
+.select_sombra{
+	-webkit-box-shadow: inset 0px 4px 19px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 4px 19px -6px rgba(0,0,0,0.75);
+
+border-color:#666;
+
+
+
+}
+.select_sombra_fijo{
+	-webkit-box-shadow: inset 0px 4px 19px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 4px 19px -6px rgba(0,0,0,0.75);
+
+border-color:#666;
+width:500px;
+
+
+
+}
+@media screen and (min-width: 700px){
+	.boton_derecha{
+		float:right;
+	}
+	.boton_izquierda{
+		float:left;
+	}
+}
+.boton{
+	border-color:  #fff;
+
+	border-style: solid;
+	border-width: 2px;
+	background-image: linear-gradient(0deg,#00678a, #00a19a);
+	border-radius: 6px;
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+}
+.table td{
+	border-top: none !important; 
+	
+}
+.texto_azul_titulo{
+	font-size:25px;
+	color:#00678a;
+	font-weight: bold;
+}
+.texto_blanco_titulo{
+	font-size:25px;
+	color:#fff;
+}
+.texto_blanco_normal{
+	color:#fff;
+	font-size:14px;
+}
+.contenedor_info_planificacion{
+	padding-left:5%;
+	padding-right:7%;
+}
+.subtitulo_celeste{
+	font-size:15px;
+	color:#00a19a;
+	font-weight: bold;
+}
+.input_con_sombra{
+	font-weight: normal;
+	border-color:  #000 !important;
+
+	border-style: solid !important;
+	border-width: 1px !important;
+	-webkit-box-shadow: inset 1px 5px 23px -6px rgba(0,0,0,0.75) !important;
+-moz-box-shadow: inset 1px 5px 23px -6px rgba(0,0,0,0.75) !important;
+	}
+	
+.contenedor_azul{
+	border-color:  #fff;
+	text-align:left;
+	color:#fff;
+	padding: 10px 15px;
+	border-style: solid;
+	border-width: 1px;
+	background:#00678a;
+	border-radius: 6px;
+	font-weight: normal;
+}
+
+.contenedor_celeste{
+	border-color:  #fff;
+	text-align:left;
+	color:#fff;
+	padding: 10px 15px;
+	border-style: solid;
+	border-width: 2px;
+	background:#00a19a;
+	border-radius: 6px;
+	font-weight: normal;	
+}
+.boton_borrar{
+	width: 17px;
+	height: 17px;
+	background-image: url(http://elquiweb.net/soluciones-pedagogicas/wp-content/themes/child_twentytwelve/img/cruz.png);	
+}
+.boton_agregar{
+	width: 17px;
+	height: 17px;
+	background-image: url(http://elquiweb.net/soluciones-pedagogicas/wp-content/themes/child_twentytwelve/img/mas.png);	
+}
+
+.sin_margen{
+	width:inherit !important;
+	
+}
+.checkbox_{
+	font-weight: normal;
+	color:#FFF;
+	border-radius: 6px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #00678a;
+	
+}
+.boton_pdf{
+background-image: url(http://elquiweb.net/soluciones-pedagogicas/wp-content/themes/child_twentytwelve/img/exportar-pdf.png);
+}
+.menu_header{
+	background-color:inherit !important; 
+	border-color:inherit !important; 
+	border:inherit !important;		
+	font-weight:normal !important;
+}
+.hr_menu{
+	color: #634E42;
+	background-color: #634E42;
+	border-color:#634E42;
+	height: 2px;
+	
+}
+.li_menu{
+
+	border: 1px solid;
+	border-color:#FFF;
+	padding: 10px 16px;	
+	color:#FFF;
+	border-radius:6px;
+	
+}
+.li_menu_salir{
+
+	border: 1px solid;
+	border-color:#00678A;
+	padding: 10px 16px;	
+	color:#FFF;
+	border-radius:6px;
+	
+}
+@media screen and (min-width: 700px){
+	.posicion_menu_div_padre{
+		float: left;
+		height: 150px;
+		position: relative;
+		width: 100%;
+	}
+	.posicion_menu_div_hijo{	
+		float: left;
+		position: absolute;
+		bottom: 0;
+	}
+}

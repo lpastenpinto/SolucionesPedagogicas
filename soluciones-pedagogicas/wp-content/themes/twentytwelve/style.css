@@ -1,0 +1,221 @@
+/*
+
+Theme Name: Child Twenty Twelve
+
+Theme URI: http://wordpress.org/themes/twentytwelve
+
+Author: Elquiweb team
+
+Author URI: http://elquiweb.com/
+
+Description: Child theme, Parent theme of twentytwelve.
+
+Version: 1.4
+
+Template: twentytwelve
+
+*/
+
+
+
+@import url("../twentytwelve/style.css");
+
+
+
+/*----------------- Empieza a añadir cambios aquí abajo -------------------------------*/
+.btn-btn-info{
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-image: none;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration:none;
+     background-color: #49AFCD;
+    background-image: linear-gradient(to bottom, #5BC0DE, #2F96B4);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+}
+.btn-btn-info:hover{
+    color:#fff;
+    background-color:#2f96b4;
+    text-decoration:none;
+    background-position:0 -15px;
+    -webkit-transition:background-position .1s linear;
+    -moz-transition:background-position .1s linear;
+    -o-transition:background-position .1s linear;
+    transition:background-position .1s linear;
+
+}
+.added {    
+    margin-right: 10px;
+}
+.eliminar,.eliminar2,.eliminar3,.eliminar4,.eliminar5,.eliminar6 {
+    margin: 5px;
+    text-decoration: none;
+}
+#tab_registro_plan tr td{
+	text-align: center;
+	border:1px solid #CCCCCC; 
+	padding:15px 15px 15px 15px;
+}
+.espacio{
+width: 100px;
+	min-height: 100px;
+	
+}
+#concepto{
+	border: 1px solid grey;
+	width: 100px;
+	min-height: 100px;
+}
+#concepto_{
+	width: 100px;
+}
+#contenedor,#contenedor2,#contenedor3,#contenedor4,#contenedor5,#contenedor6 {
+	display: inline-block;
+    margin-top: 15px;
+}
+#submitbtn1,#submitbtn2,#submitbtn3{
+-webkit-transition:.2s;
+-moz-transition:.2s;
+-o-transition:.2s;
+box-shadow: 30px 10px 20px #aaa; 
+border-radius: 20px;  
+margin:5% 3%;	
+display: inline-block;
+font-size:18px;
+background: #252E2E;
+color: white;
+width: 250px;
+height: 100px;
+float: left;
+}
+#submitbtn1:hover,#submitbtn2:hover,#submitbtn3:hover{
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+}
+#guardar_1,#guardar_2,#guardar_3,#guardar_4,#guardar_5,#guardar_planificacion_unidad,#reset_planificacion_unidad{
+box-shadow: 30px 10px 20px #aaa; 
+width: 150px;
+height: 50px;
+margin: 3% 25% 2% 30%;
+-webkit-transition:.2s;
+-moz-transition:.2s;
+-o-transition:.2s;
+background: #252E2E;
+color: white;
+}
+#guardar_1:hover,#guardar_2:hover,#guardar_3:hover,#guardar_4:hover,#guardar_5:hover#guardar_planificacion_unidad:hover,#reset_planificacion_unidad:hover{
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+}
+input.guardar{
+box-shadow: 30px 10px 20px #aaa; 
+width: 150px;
+height: 50px;
+background: #252E2E;
+color: white;
+-webkit-transition:.2s;
+-moz-transition:.2s;
+-o-transition:.2s;
+}
+input.guardar:hover{
+background: #252E2E;
+color: white;
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+}
+#sub_{
+box-shadow: 30px 10px 20px #aaa; 
+width: 150px;
+height: 50px;
+-webkit-transition:.2s;
+-moz-transition:.2s;
+-o-transition:.2s;
+background: #252E2E;
+color: white;	
+}
+#sub_:hover{
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+}
+.enlace{
+text-decoration:none;
+color:black;
+}
+#cambio:before{
+content: "Unidad 1";
+font-weight: bold;
+}
+#cambio:hover:before{
+content: "Planificar Unidad 1";
+color:blue;
+font-size: 15px;
+}
+#cambio_2:before{
+content: "Unidad 2";
+font-weight: bold;
+}
+#cambio_2:hover:before{
+content: "Planificar Unidad 2";
+color:blue;
+font-size: 15px;
+}
+#cambio_3:before{
+content: "Unidad 3";
+font-weight: bold;
+}
+#cambio_3:hover:before{
+content: "Planificar Unidad 3";
+color:blue;
+font-size: 15px;
+}
+#cambio_4:before{
+content: "Unidad 4";
+font-weight: bold;
+}
+#cambio_4:hover:before{
+content: "Planificar Unidad 4";
+color:blue;
+font-size: 15px;
+}
+#cambio_5:before{
+content: "Selecciona Unidad a Planificar";
+font-weight: bold;
+}
+#cambio_5:hover:before{
+content: "Planificar Unidad ";
+color:blue;
+font-size: 15px;
+}
+#result_a{
+	margin:-20% 5% 5%;
+	float: right;
+}
+#form_s2{
+margin:-15% 40% 0% 5%;
+float: right;
+
+}
+.boton {
+    padding: 10px 15px;
+    background: #4479BA;
+    color: #FFF;
+}
